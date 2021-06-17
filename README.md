@@ -60,6 +60,4 @@ Therefore, the following boot shortcuts may not match other laptops not made by 
 
 ### First start you computer, and spam the hotkey `ESC`, until it opens this little menu
 
-![image](https://user-images.githubusercontent.com/50002439/122444669-155c8000-cfa1-11eb-8dff-a0df2179d254.png)
-
 ![image](https://user-images.githubusercontent.com/50002439/122444664-12fa2600-cfa1-11eb-8acf-f2bbc8cb5125.png)
