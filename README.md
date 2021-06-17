@@ -61,7 +61,28 @@ Therefore, the following boot shortcuts may not match other laptops not made by 
 
 ### First start you computer, and spam the hotkey `ESC`, until it opens this little menu
 
-![image](https://user-images.githubusercontent.com/50002439/122444664-12fa2600-cfa1-11eb-8acf-f2bbc8cb5125.png)
-![image](https://user-images.githubusercontent.com/50002439/122450189-05e03580-cfa7-11eb-8d48-0ca810488592.png)
+![image](https://user-images.githubusercontent.com/50002439/122459142-d9c9b200-cfb0-11eb-9f64-45fef4824df4.png)
 
-Then you click F9 - `Boot Device Options`
+Then you hit F9 - `Boot Device Options` (As shown on the photo below)
+
+![image](https://user-images.githubusercontent.com/50002439/122459174-e4844700-cfb0-11eb-8c54-0f5ecbe85afb.png)
+
+# AND FINALLY YOU SELECT YOUR USB
+
+YEYY, You have finally reached the end! All you have to do now is select your USB (Drive) and wait a while, eventually a windows logo should appear
+> Note: This may take longer for it to show (Just expect it to be up to 1 minute, but it usually leaves me in 20-30 seconds)
+> 
+Then follow the well-known windows installation, and in the end you can enjoy a completely new makeover of windows after a long wait
+
+![image](https://user-images.githubusercontent.com/50002439/122459278-0a115080-cfb1-11eb-9926-e4f00070e349.png)
+![image](https://user-images.githubusercontent.com/50002439/122459315-15647c00-cfb1-11eb-9744-3f073e79d40c.png)
+
+# Issue's or Problems?
+
+If you have encountered a problem in one of the steps, do not wait any longer and contact me at one of the contact options below
+
+[Instagram](https://www.instagram.com/klvoets2006)
+Discord: Kane.#0001
+[Or create an github issue here](https://github.com/kanetjuh/windows11/issues)
+
+
