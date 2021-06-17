@@ -82,7 +82,9 @@ Then follow the well-known windows installation, and in the end you can enjoy a 
 If you have encountered a problem in one of the steps, do not wait any longer and contact me at one of the contact options below
 
 [Instagram](https://www.instagram.com/klvoets2006)
+
 Discord: Kane.#0001
+
 [Or create an github issue here](https://github.com/kanetjuh/windows11/issues)
 
 
