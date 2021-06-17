@@ -2,6 +2,8 @@
 
 This is the unofficial documentation on how to install Windows 11.
 
+IMPORTANT!!!!
+Read the entire documentation before trying anything, as some steps require certain requirements. (Blank disk, if not, wipe one)
 We highly recommend you to read EVERY SINGLE LINE for installing Windows 11, otherwise we aren't responsible for the problems you cause.
 
 # Installing
@@ -38,56 +40,26 @@ Now open the program called `Rufus`, then click `Yes`
 Now it should look something like this.
 
 ![image](https://user-images.githubusercontent.com/50002439/122442250-aa11ae80-cf9e-11eb-8498-2f9cd4fbb3f2.png)
-
 > Note: On the screenshot my disk (USB) is already selected
 > I've already inserted the USB (Which I recommend doing before opening the program)
 
+Then you click button which says: `Select` and then select your .iso file
 
+![image](https://user-images.githubusercontent.com/50002439/122442822-4471f200-cf9f-11eb-8c57-11980a822be1.png)
+![image](https://user-images.githubusercontent.com/50002439/122443010-72efcd00-cf9f-11eb-9707-5c51bf858399.png)
 
-```js
-// requires
-var express = require("express");
-var lxd = require("node-lxd");
-var client = lxd();
-var app = express();
+> Again: To mention it again, these settings have helped me, and can sometimes differ per computer, if you don't know how or what, I advise you to ask an expert, expert, experienced, or just to to search
+Now click on the button: `START` and wait for it to finish. (I'm not doing this now as I've done this before)
 
-var containers = {};
+## Booting via the USB ##
 
-app.post("/create", function(req, res) {
-	client.launch(req.query.name, function(err, container) {
-		if (err) res.json({success: false, message: err.getMessage()});
-		else {
-			containers[req.query.name] = container;
-			res.json({success: true, message: "Container launched"});
-		}
-	});
-});
+After we have done all these steps it is finally time to boot the disk via our bootable usb, to do this you will always need an empty disk (if this is not possible you will have to wipe one), this can be done too can be done via the boot menu itself but this is also possible
 
-app.post("/run", function(req, res) {
-	if (!containers.hasOwnProperty(req.query.name)) {
-		res.json({success: false, message: "Container does not exist"});
-		return;
-	}
+I used an `HP EliteBook Folio 9470m` for this experiment
+Therefore, the following boot shortcuts may not match other laptops not made by HP
 
-	containers[req.query.name].run(req.query.cmd.split(" "), function(err, stdOut, stdErr) {
-		if (err) res.json({success: false, message: err.getMessage()});
-		else if (stdErr.length > 0) res.json({success: false, message: stdErr});
-		else {
-			res.json({success: true, message: stdOut});
-		}
-	});
-});
+### First start you computer, and spam the hotkey `ESC`, until it opens this little menu
 
-app.listen(3000, function(err) {
-	if (!err)
-		console.log("listening on port 3000");
-});
-```
+![image](https://user-images.githubusercontent.com/50002439/122444669-155c8000-cfa1-11eb-8dff-a0df2179d254.png)
 
-## Documentation ##
-
-The client class is documented [here](https://github.com/Wolfo-Gaming/node-lxd/blob/master/docs/client.md).
-
-The container class is documented [here](https://github.com/Wolfo-Gaming/node-lxd/blob/master/docs/container.md).
-
-The process class is documented [here](https://github.com/Wolfo-Gaming/node-lxd/blob/master/docs/process.md).
+![image](https://user-images.githubusercontent.com/50002439/122444664-12fa2600-cfa1-11eb-8acf-f2bbc8cb5125.png)
