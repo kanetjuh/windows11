@@ -62,3 +62,6 @@ Therefore, the following boot shortcuts may not match other laptops not made by 
 ### First start you computer, and spam the hotkey `ESC`, until it opens this little menu
 
 ![image](https://user-images.githubusercontent.com/50002439/122444664-12fa2600-cfa1-11eb-8acf-f2bbc8cb5125.png)
+![image](https://user-images.githubusercontent.com/50002439/122450189-05e03580-cfa7-11eb-8d48-0ca810488592.png)
+
+Then you click F9 - `Boot Device Options`
