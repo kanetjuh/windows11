@@ -1,6 +1,7 @@
 # Windows 11
 
 This is the unofficial documentation on how to install Windows 11.
+We highly recommend you to read EVERY SINGLE LINE for installing Windows 11, otherwise we aren't responsible for the problems you cause.
 
 # Installing
 In the first instances, you need to download the .iso file to boot your PC with it in the future!                  
