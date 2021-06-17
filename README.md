@@ -1,4 +1,4 @@
-# Windows 11
+# Windows 11 - Installation Guide
 
 This is the unofficial documentation on how to install Windows 11.
 
