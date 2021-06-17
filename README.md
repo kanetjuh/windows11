@@ -49,13 +49,15 @@ Then you click button which says: `Select` and then select your .iso file
 ![image](https://user-images.githubusercontent.com/50002439/122443010-72efcd00-cf9f-11eb-9707-5c51bf858399.png)
 
 > Again: To mention it again, these settings have helped me, and can sometimes differ per computer, if you don't know how or what, I advise you to ask an expert, expert, experienced, or just to to search
+> 
 Now click on the button: `START` and wait for it to finish. (I'm not doing this now as I've done this before)
 
 ## Booting via the USB ##
 
 After we have done all these steps it is finally time to boot the disk via our bootable usb, to do this you will always need an empty disk (if this is not possible you will have to wipe one), this can be done too can be done via the boot menu itself but this is also possible
 
-I used an `HP EliteBook Folio 9470m` for this experiment
+I used an `HP EliteBook Folio 9470m` for this experiment.
+
 Therefore, the following boot shortcuts may not match other laptops not made by HP
 
 ### First start you computer, and spam the hotkey `ESC`, until it opens this little menu
