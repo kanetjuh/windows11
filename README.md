@@ -32,9 +32,11 @@ Now it is finally time to start the real thing, because we now have to make a bo
 >> !!! Important: All data you have on that USB will be deleted when you make a bootable USB, so we advise you to make a backup of it, or put it on another PC / USB!
 
 Now open the program called `Rufus`, then click `Yes`
+
 ![image](https://user-images.githubusercontent.com/50002439/122442166-90706700-cf9e-11eb-8582-f4fa6b92e681.png)
 
 Now it should look something like this.
+
 ![image](https://user-images.githubusercontent.com/50002439/122442250-aa11ae80-cf9e-11eb-8498-2f9cd4fbb3f2.png)
 
 > Note: On the screenshot my disk (USB) is already selected
